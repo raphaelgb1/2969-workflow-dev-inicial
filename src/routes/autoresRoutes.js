@@ -9,6 +9,6 @@ router
   .get('/autores/:id/livros', AutoresController.listarLivrosPorAutor)
   .post('/autores', AutoresController.cadastrarAutor)
   .put('/autores/:id', AutoresController.atualizarAutor)
-  .delete('/autores/:id', AutoresController.excluirAutor);
+  .delete('/autores/:id', AutoresController.excluirAuto);
 
 export default router;
