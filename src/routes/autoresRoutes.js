@@ -7,7 +7,6 @@ router
   .get('/autores', AutoresController.listarAutores)
   .get('/autores/:id', AutoresController.listarAutorPorId)
   .get('/autores/:id/livros', AutoresController.listarLivrosPorAutor)
-  .get('/autores/:id/livros/:id', AutoresController.listarLivrosPorAutor)
   .post('/autores', AutoresController.cadastrarAutor)
   .put('/autores/:id', AutoresController.atualizarAutor)
   .delete('/autores/:id', AutoresController.excluirAuto);
